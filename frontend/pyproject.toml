@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "style-transfer"
+version = "0.1.0"
+description = ""
+authors = ["None"]
+readme = "README.md"
+packages = [{include = "style_transfer"}]
+
+[tool.poetry.dependencies]
+python = "3.9.16"
+streamlit = "^1.22.0"
+requests = "^2.30.0"
+pillow = "^9.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

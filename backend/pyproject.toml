@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "style-transfer"
+version = "0.1.0"
+description = ""
+authors = ["None"]
+readme = "README.md"
+packages = [{include = "style_transfer"}]
+
+[tool.poetry.dependencies]
+python = "3.9.16"
+fastapi = "^0.95.1"
+numpy = "^1.24.3"
+pillow = "^9.5.0"
+python-multipart = "^0.0.6"
+uvicorn = "^0.22.0"
+streamlit = "^1.22.0"
+opencv-python-headless = "^4.7.0.72"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
